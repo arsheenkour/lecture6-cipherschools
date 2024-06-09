@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout<<"enter an integer"<<endl;
+    cin>>a;
+    switch(a)//to the condition in this parenthesis
+    {
+        case 1:
+        cout<<"the value of a is 1";
+        break;
+        case 2:
+        cout<<"the value of a is 2";
+        break;
+        default:
+        cout<<"default is always printed";
+        break;
+    }
+}
